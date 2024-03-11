@@ -49,3 +49,42 @@ input[type=number] {
   background-color: #ff8400;
   transition: 0.3s;
 }
+@media(max-width: 580px){
+  #fromCurrency, #toCurrency{
+    width: 220px;
+  }
+  #amount, #convertedAmount{
+    width: 212px;
+  }
+  .btn{
+    width: 452px;
+  }
+}
+@media(max-width: 485px){
+  #fromCurrency, #toCurrency{
+    width: 180px;
+  }
+  #amount, #convertedAmount{
+    width: 172px;
+  }
+  .btn{
+    width: 372px;
+  }
+  .divImg{
+    margin-left: 31%;
+  }
+}
+@media(max-width: 400px){
+  #fromCurrency, #toCurrency{
+    width: 140px;
+  }
+  #amount, #convertedAmount{
+    width: 132px;
+  }
+  .btn{
+    width: 292px;
+  }
+  .divImg{
+    margin-left: 27%;
+  }
+}
